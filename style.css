@@ -1,0 +1,35 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+  height: 100vh;
+  position: relative;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  #profile-link {
+    margin: 10px;
+  }
+}
